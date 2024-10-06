@@ -1,0 +1,70 @@
+body {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top {
+    width: 100%;
+    height: 42px;
+    border-bottom: 2px solid black; 
+}
+
+.item_list > ul{
+    display: flex;
+}
+
+.item_list > ul li {
+    width: 385px;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_list > ul li > h4 {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.card {
+    width: 385px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-left {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-right{
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 18px;
+}
+
+.space {
+    margin-right: 10px;
+}
