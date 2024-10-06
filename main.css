@@ -1,0 +1,134 @@
+body {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 2000px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top {
+    top: 0;
+    width: 100%;
+    height: 42px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.top .logo {
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.top .bar {
+    flex-grow: 1;
+}
+
+.top .material-symbols-outlined {
+    font-size: 36px;
+    margin-right: 8px;
+}
+
+.visual .main-image {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+
+header .setting-image {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 42px;
+    height: 80px;
+    overflow: hidden;
+    transition: top 0.1s;
+    border-bottom: 2px solid black;
+    z-index: 99;
+}
+
+header .menu {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 85%;
+}
+
+header .load_setting {
+    width: 15%;
+}
+
+header .menu > li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu > li:first-child {
+    margin-left: 20px;
+}
+
+header .menu > li a {
+    font-size: 28px;
+    color: white;
+    padding: 0 20px;
+}
+
+header .menu:hover {
+    background-color: black !important;
+}
+
+header .contents {
+    position: fixed;
+    display: flex;
+    visibility: hidden;
+    left: 0;
+    top: 122px;
+    background-color: black;
+    width: 100%;
+    height: 220px;
+}
+
+header .contents > li:first-child {
+    margin-left: 20px;
+}
+
+header .contents li {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.w2 {
+    width: 85px;
+}
+
+.w4 {
+    width: 118px;
+}
+
+header .contents li ul li a{
+    color: rgb(161, 161, 161);
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+header .contents li ul li a:hover {
+    color: white;
+}
+
+
+header .menu:hover .contents {
+    visibility: visible;
+}
